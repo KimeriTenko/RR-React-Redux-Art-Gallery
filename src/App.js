@@ -12,6 +12,7 @@ function App() {
     mode.darkMode ? dispatch(lightMode()) : dispatch(darkMode())
   }
   
+  
   return (
     <div style={{ backgroundColor: mode.color1, color: 'white' }} className="App">
       <Nav />
